@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![AutoAgent Pro Banner](docs/banner.svg)
+![AutoAgent Pro Banner](/banner.svg)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
