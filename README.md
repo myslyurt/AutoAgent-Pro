@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![AutoAgent Pro Banner](docs/banner.png)
+![AutoAgent Pro Banner](docs/banner.svg)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -277,6 +277,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 **Built to demonstrate production-grade AI agent engineering.**
 
-*If you're looking for an AI automation specialist for your project, [let's talk](mailto:your@email.com).*
+*If you're looking for an AI automation specialist for your project, [upwork](https://www.upwork.com/freelancers/~01e45f433b6bc60914).*
 
 </div>
