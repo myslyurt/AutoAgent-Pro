@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  autoagent:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - REDIS_URL=redis://redis:6379
+      - CHROMA_PERSIST_DIR=/data/chroma
+      - MOCK_APIS=true
+    volumes:
+      - chroma_data:/data/chroma
+    depends_on:
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+volumes:
+  chroma_data:
+  redis_data:

@@ -1,0 +1,120 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <style>
+    .ban-bg { fill: #0f1117; }
+    .ban-card { fill: #1a1d27; stroke: #2e3348; stroke-width: 0.8; }
+    .ban-title { font-family: Georgia, serif; font-size: 32px; font-weight: 700; fill: #f0f0f0; letter-spacing: -0.5px; }
+    .ban-sub { font-family: sans-serif; font-size: 13px; fill: #8892a4; font-weight: 400; }
+    .ban-tag { font-family: monospace; font-size: 10px; fill: #60d9a4; }
+    .ban-label { font-family: sans-serif; font-size: 11px; font-weight: 500; fill: #c8d0e0; }
+    .ban-small { font-family: sans-serif; font-size: 9px; fill: #606880; }
+    .ban-arrow { stroke: #3a4260; stroke-width: 1; fill: none; }
+    .ban-arrow-green { stroke: #60d9a4; stroke-width: 1.2; fill: none; }
+    .ban-dot-green { fill: #60d9a4; }
+  </style>
+</defs>
+
+<rect width="680" height="380" class="ban-bg"/>
+
+<g opacity="0.04">
+  <line x1="0" y1="95" x2="680" y2="95" stroke="#fff" stroke-width="0.5"/>
+  <line x1="0" y1="190" x2="680" y2="190" stroke="#fff" stroke-width="0.5"/>
+  <line x1="0" y1="285" x2="680" y2="285" stroke="#fff" stroke-width="0.5"/>
+  <line x1="170" y1="0" x2="170" y2="380" stroke="#fff" stroke-width="0.5"/>
+  <line x1="340" y1="0" x2="340" y2="380" stroke="#fff" stroke-width="0.5"/>
+  <line x1="510" y1="0" x2="510" y2="380" stroke="#fff" stroke-width="0.5"/>
+</g>
+
+<rect x="28" y="30" width="290" height="200" rx="10" class="ban-card"/>
+<circle cx="58" cy="58" r="14" fill="#1f2840" stroke="#3a4fa0" stroke-width="1"/>
+<circle cx="58" cy="58" r="8" fill="none" stroke="#60d9a4" stroke-width="1.5"/>
+<circle cx="58" cy="58" r="3" fill="#60d9a4"/>
+<text x="80" y="53" class="ban-tag">v1.0.0 — production ready</text>
+<text x="80" y="66" class="ban-small">Python · LangGraph · FastAPI</text>
+<text x="42" y="106" class="ban-title">AutoAgent</text>
+<text x="42" y="140" class="ban-title" fill="#60d9a4">Pro</text>
+<text x="42" y="168" class="ban-sub">Multi-agent AI customer support</text>
+<text x="42" y="184" class="ban-sub">automation — end to end.</text>
+<rect x="42" y="198" width="62" height="22" rx="4" fill="#0f1117"/>
+<text x="73" y="213" text-anchor="middle" class="ban-tag">82% auto</text>
+<rect x="112" y="198" width="62" height="22" rx="4" fill="#0f1117"/>
+<text x="143" y="213" text-anchor="middle" class="ban-tag">4.2s avg</text>
+<rect x="182" y="198" width="62" height="22" rx="4" fill="#0f1117"/>
+<text x="213" y="213" text-anchor="middle" class="ban-tag">94% CSAT</text>
+
+<rect x="344" y="30" width="120" height="38" rx="6" fill="#1a1d27" stroke="#2e3348" stroke-width="0.8"/>
+<circle cx="360" cy="49" r="4" fill="#f5a623"/>
+<text x="372" y="45" class="ban-label">Ticket</text>
+<text x="372" y="57" class="ban-small">customer message</text>
+<line x1="404" y1="68" x2="404" y2="88" class="ban-arrow-green"/>
+<rect x="330" y="88" width="148" height="40" rx="6" fill="#1f2840" stroke="#3a4fa0" stroke-width="1.2"/>
+<text x="404" y="106" text-anchor="middle" class="ban-label" fill="#a0aacc">Supervisor</text>
+<text x="404" y="118" text-anchor="middle" class="ban-small">orchestrator</text>
+<line x1="370" y1="128" x2="358" y2="158" class="ban-arrow"/>
+<line x1="390" y1="128" x2="390" y2="158" class="ban-arrow"/>
+<line x1="415" y1="128" x2="425" y2="158" class="ban-arrow"/>
+<line x1="440" y1="128" x2="460" y2="158" class="ban-arrow"/>
+
+<rect x="318" y="158" width="64" height="46" rx="5" fill="#1a1d27" stroke="#2a4040" stroke-width="0.8"/>
+<text x="350" y="178" text-anchor="middle" class="ban-small" fill="#60d9a4">Triage</text>
+<text x="350" y="190" text-anchor="middle" class="ban-small">intent</text>
+<text x="350" y="200" text-anchor="middle" class="ban-small">urgency</text>
+<rect x="362" y="158" width="64" height="46" rx="5" fill="#1a1d27" stroke="#2a4040" stroke-width="0.8"/>
+<text x="394" y="178" text-anchor="middle" class="ban-small" fill="#60d9a4">Knowledge</text>
+<text x="394" y="190" text-anchor="middle" class="ban-small">RAG</text>
+<text x="394" y="200" text-anchor="middle" class="ban-small">search</text>
+<rect x="406" y="158" width="64" height="46" rx="5" fill="#1a1d27" stroke="#2a4040" stroke-width="0.8"/>
+<text x="438" y="178" text-anchor="middle" class="ban-small" fill="#60d9a4">Action</text>
+<text x="438" y="190" text-anchor="middle" class="ban-small">tools</text>
+<text x="438" y="200" text-anchor="middle" class="ban-small">refund</text>
+<rect x="450" y="158" width="64" height="46" rx="5" fill="#1a1d27" stroke="#2a4040" stroke-width="0.8"/>
+<text x="482" y="178" text-anchor="middle" class="ban-small" fill="#60d9a4">Quality</text>
+<text x="482" y="190" text-anchor="middle" class="ban-small">review</text>
+<text x="482" y="200" text-anchor="middle" class="ban-small">score</text>
+
+<line x1="350" y1="204" x2="380" y2="232" class="ban-arrow"/>
+<line x1="394" y1="204" x2="394" y2="232" class="ban-arrow"/>
+<line x1="438" y1="204" x2="418" y2="232" class="ban-arrow"/>
+<line x1="482" y1="204" x2="452" y2="232" class="ban-arrow"/>
+
+<rect x="336" y="232" width="148" height="38" rx="6" fill="#0d2018" stroke="#1a5c38" stroke-width="0.8"/>
+<circle cx="354" cy="251" r="3" fill="#60d9a4"/>
+<text x="366" y="248" class="ban-label" fill="#60d9a4">Resolved</text>
+<text x="366" y="260" class="ban-small">autonomous response sent</text>
+
+<rect x="530" y="30" width="122" height="200" rx="10" class="ban-card"/>
+<text x="591" y="52" text-anchor="middle" class="ban-small">tech stack</text>
+<rect x="546" y="60" width="90" height="18" rx="3" fill="#0f1117"/>
+<text x="591" y="73" text-anchor="middle" class="ban-tag">LangGraph</text>
+<rect x="546" y="82" width="90" height="18" rx="3" fill="#0f1117"/>
+<text x="591" y="95" text-anchor="middle" class="ban-tag">FastAPI</text>
+<rect x="546" y="104" width="90" height="18" rx="3" fill="#0f1117"/>
+<text x="591" y="117" text-anchor="middle" class="ban-tag">ChromaDB</text>
+<rect x="546" y="126" width="90" height="18" rx="3" fill="#0f1117"/>
+<text x="591" y="139" text-anchor="middle" class="ban-tag">Redis</text>
+<rect x="546" y="148" width="90" height="18" rx="3" fill="#0f1117"/>
+<text x="591" y="161" text-anchor="middle" class="ban-tag">GPT-4o</text>
+<rect x="546" y="170" width="90" height="18" rx="3" fill="#0f1117"/>
+<text x="591" y="183" text-anchor="middle" class="ban-tag">Docker</text>
+<rect x="546" y="192" width="90" height="18" rx="3" fill="#0f1117"/>
+<text x="591" y="205" text-anchor="middle" class="ban-tag">pytest</text>
+
+<rect x="28" y="248" width="624" height="102" rx="10" class="ban-card"/>
+<text x="50" y="270" class="ban-small">autonomous resolution</text>
+<rect x="50" y="278" width="116" height="6" rx="3" fill="#1a3025"/>
+<rect x="50" y="278" width="95" height="6" rx="3" fill="#60d9a4"/>
+<text x="50" y="298" class="ban-label" fill="#60d9a4">82%</text>
+<text x="200" y="270" class="ban-small">escalation accuracy</text>
+<rect x="200" y="278" width="116" height="6" rx="3" fill="#1a3025"/>
+<rect x="200" y="278" width="109" height="6" rx="3" fill="#60d9a4"/>
+<text x="200" y="298" class="ban-label" fill="#60d9a4">94%</text>
+<text x="350" y="270" class="ban-small">avg response time</text>
+<text x="350" y="298" class="ban-label" fill="#f5a623">4.2s</text>
+<text x="450" y="270" class="ban-small">intents supported</text>
+<text x="450" y="298" class="ban-label" fill="#a0aacc">6</text>
+<text x="540" y="270" class="ban-small">test coverage</text>
+<text x="540" y="298" class="ban-label" fill="#a0aacc">85%+</text>
+<line x1="28" y1="312" x2="652" y2="312" stroke="#2e3348" stroke-width="0.5"/>
+<text x="50" y="330" class="ban-small">supports: refunds · order tracking · technical support · billing · account actions · general inquiries</text>
+<text x="50" y="344" class="ban-small">integrates with: Zendesk · Intercom · Freshdesk · custom CRM · Stripe · REST APIs</text>
+</svg>
